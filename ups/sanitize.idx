@@ -1,0 +1,9 @@
+NimIdentifier	ups/sanitize.html#NimIdentifier	sanitize: NimIdentifier	
+nimIdentNormalize	ups/sanitize.html#nimIdentNormalize,string	sanitize: nimIdentNormalize(s: string): string	
+isValidNimIdentifier	ups/sanitize.html#isValidNimIdentifier,string	sanitize: isValidNimIdentifier(s: string): bool	
+sanitizeIdentifier	ups/sanitize.html#sanitizeIdentifier,string	sanitize: sanitizeIdentifier(name: string; capsOkay = false): Option[NimIdentifier]	
+`$`	ups/sanitize.html#$,NimIdentifier	sanitize: `$`(name: NimIdentifier): string	
+len	ups/sanitize.html#len,NimIdentifier	sanitize: len(name: NimIdentifier): int	
+`==`	ups/sanitize.html#==,NimIdentifier,NimIdentifier	sanitize: `==`(a, b: NimIdentifier): bool	
+`&lt;`	ups/sanitize.html#<,NimIdentifier,NimIdentifier	sanitize: `&lt;`(a, b: NimIdentifier): bool	
+hash	ups/sanitize.html#hash,NimIdentifier	sanitize: hash(name: NimIdentifier): Hash	

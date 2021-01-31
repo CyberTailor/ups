@@ -1,0 +1,20 @@
+ProjectCfgParsed	ups/config.html#ProjectCfgParsed	config: ProjectCfgParsed	
+parseConfigFile	ups/config.html#parseConfigFile,AbsoluteFile	config: parseConfigFile(path: AbsoluteFile): Option[ConfigRef]	
+loadAllCfgs	ups/config.html#loadAllCfgs,string	config: loadAllCfgs(directory: string): ConfigRef	
+createTemporaryFile	ups/config.html#createTemporaryFile,string,string	config: createTemporaryFile(prefix: string; suffix: string): AbsoluteFile	
+appendConfig	ups/config.html#appendConfig,AbsoluteFile,string	config: appendConfig(path: AbsoluteFile; config: string): bool	
+parseProjectCfg	ups/config.html#parseProjectCfg,AbsoluteFile	config: parseProjectCfg(input: AbsoluteFile): ProjectCfgParsed	
+isStdlib	ups/config.html#isStdlib.t,ConfigRef,AbsoluteDir	config: isStdlib(config: ConfigRef; path: AbsoluteDir): bool	
+likelySearch	ups/config.html#likelySearch.i,ConfigRef,bool	config: likelySearch(config: ConfigRef; libsToo: bool): AbsoluteDir	
+likelySearch	ups/config.html#likelySearch.i,ConfigRef,AbsoluteDir,bool	config: likelySearch(config: ConfigRef; repo: AbsoluteDir; libsToo: bool): AbsoluteDir	
+likelyLazy	ups/config.html#likelyLazy.i,ConfigRef,int	config: likelyLazy(config: ConfigRef; least = 0): AbsoluteDir	
+likelyLazy	ups/config.html#likelyLazy.i,ConfigRef,AbsoluteDir,int	config: likelyLazy(config: ConfigRef; repo: AbsoluteDir; least = 0): AbsoluteDir	
+packagePaths	ups/config.html#packagePaths.i,ConfigRef	config: packagePaths(config: ConfigRef; exists = true): AbsoluteDir	
+suggestNimbleDir	ups/config.html#suggestNimbleDir,ConfigRef,AbsoluteDir,AbsoluteDir	config: suggestNimbleDir(config: ConfigRef; local: AbsoluteDir; global: AbsoluteDir): AbsoluteDir	
+removeSearchPath	ups/config.html#removeSearchPath,ConfigRef,AbsoluteFile,AbsoluteDir	config: removeSearchPath(config: ConfigRef; nimcfg: AbsoluteFile; path: AbsoluteDir): bool	
+addSearchPath	ups/config.html#addSearchPath,ConfigRef,AbsoluteFile,AbsoluteDir	config: addSearchPath(config: ConfigRef; nimcfg: AbsoluteFile; path: AbsoluteDir): bool	
+excludeSearchPath	ups/config.html#excludeSearchPath,ConfigRef,AbsoluteFile,AbsoluteDir	config: excludeSearchPath(config: ConfigRef; nimcfg: AbsoluteFile; path: AbsoluteDir): bool	
+extantSearchPaths	ups/config.html#extantSearchPaths.i,ConfigRef,int	config: extantSearchPaths(config: ConfigRef; least = 0): AbsoluteDir	
+addLockerRoom	ups/config.html#addLockerRoom,JsonNode,string,JsonNode	config: addLockerRoom(js: var JsonNode; name: string; room: JsonNode)	
+getAllLockerRooms	ups/config.html#getAllLockerRooms,JsonNode	config: getAllLockerRooms(js: JsonNode): JsonNode	
+getLockerRoom	ups/config.html#getLockerRoom,JsonNode,string	config: getLockerRoom(js: JsonNode; name: string): JsonNode	

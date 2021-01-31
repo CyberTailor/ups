@@ -1,0 +1,15 @@
+normal	ups/paths.html#normal,string	paths: normal(path: string): string	
+parentDir	ups/paths.html#parentDir,AbsoluteDir	paths: parentDir(dir: AbsoluteDir): AbsoluteDir	
+parentDir	ups/paths.html#parentDir,AbsoluteFile	paths: parentDir(dir: AbsoluteFile): AbsoluteDir	
+hash	ups/paths.html#hash,AbsoluteDir	paths: hash(p: AbsoluteDir): Hash	
+hash	ups/paths.html#hash,AbsoluteFile	paths: hash(p: AbsoluteFile): Hash	
+toAbsoluteDir	ups/paths.html#toAbsoluteDir,string	paths: toAbsoluteDir(s: string): AbsoluteDir	
+toAbsoluteFile	ups/paths.html#toAbsoluteFile,string	paths: toAbsoluteFile(s: string): AbsoluteFile	
+withinDirectory	ups/paths.html#withinDirectory.t,AbsoluteDir,untyped	paths: withinDirectory(path: AbsoluteDir; body: untyped): untyped	
+withinDirectory	ups/paths.html#withinDirectory.t,string,untyped	paths: withinDirectory(path: string; body: untyped): untyped	
+startsWith	ups/paths.html#startsWith,AbsoluteDir,AbsoluteDir	paths: startsWith(path: AbsoluteDir; parent: AbsoluteDir): bool	
+startsWith	ups/paths.html#startsWith,AbsoluteDir,string	paths: startsWith(path: AbsoluteDir; parent: string): bool	
+startsWith	ups/paths.html#startsWith,AbsoluteFile,string	paths: startsWith(path: AbsoluteFile; s: string): bool	
+endsWith	ups/paths.html#endsWith,AbsoluteDir,string	paths: endsWith(path: AbsoluteDir; s: string): bool	
+endsWith	ups/paths.html#endsWith,AbsoluteFile,string	paths: endsWith(path: AbsoluteFile; s: string): bool	
+isRootDir	ups/paths.html#isRootDir,AbsoluteDir	paths: isRootDir(path: AbsoluteDir): bool	

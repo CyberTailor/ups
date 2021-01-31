@@ -1,0 +1,54 @@
+ForkTargetResult	ups/spec.html#ForkTargetResult	spec: ForkTargetResult	
+ImportName	ups/spec.html#ImportName	spec: ImportName	
+PackageName	ups/spec.html#PackageName	spec: PackageName	
+DotNimble	ups/spec.html#DotNimble	spec: DotNimble	
+dotNimble	ups/spec.html#dotNimble_2	spec: dotNimble	
+dotNimbleLink	ups/spec.html#dotNimbleLink	spec: dotNimbleLink	
+dotGit	ups/spec.html#dotGit	spec: dotGit	
+dotHg	ups/spec.html#dotHg	spec: dotHg	
+DepDir	ups/spec.html#DepDir	spec: DepDir	
+PkgDir	ups/spec.html#PkgDir	spec: PkgDir	
+NimCfg	ups/spec.html#NimCfg	spec: NimCfg	
+ghTokenFn	ups/spec.html#ghTokenFn	spec: ghTokenFn	
+ghTokenEnv	ups/spec.html#ghTokenEnv	spec: ghTokenEnv	
+nimbleMeta	ups/spec.html#nimbleMeta	spec: nimbleMeta	
+officialPackages	ups/spec.html#officialPackages	spec: officialPackages	
+emptyRelease	ups/spec.html#emptyRelease	spec: emptyRelease	
+defaultRemote	ups/spec.html#defaultRemote	spec: defaultRemote	
+upstreamRemote	ups/spec.html#upstreamRemote	spec: upstreamRemote	
+excludeMissingSearchPaths	ups/spec.html#excludeMissingSearchPaths	spec: excludeMissingSearchPaths	
+excludeMissingLazyPaths	ups/spec.html#excludeMissingLazyPaths	spec: excludeMissingLazyPaths	
+writeNimbleDirPaths	ups/spec.html#writeNimbleDirPaths	spec: writeNimbleDirPaths	
+WhatHappensInVegas	ups/spec.html#WhatHappensInVegas	spec: WhatHappensInVegas	
+`$`	ups/spec.html#$,DotNimble	spec: `$`(file: DotNimble): string	
+`$`	ups/spec.html#$,ImportName	spec: `$`(name: ImportName): string	
+`$`	ups/spec.html#$,PackageName	spec: `$`(name: PackageName): string	
+`==`	ups/spec.html#==,ImportName,ImportName	spec: `==`(a, b: ImportName): bool	
+`==`	ups/spec.html#==,PackageName,PackageName	spec: `==`(a, b: PackageName): bool	
+`&lt;`	ups/spec.html#<,ImportName,ImportName	spec: `&lt;`(a, b: ImportName): bool	
+`&lt;`	ups/spec.html#<,PackageName,PackageName	spec: `&lt;`(a, b: PackageName): bool	
+hash	ups/spec.html#hash,ImportName	spec: hash(name: ImportName): Hash	
+hash	ups/spec.html#hash,PackageName	spec: hash(name: PackageName): Hash	
+repo	ups/spec.html#repo.t,DotNimble	spec: repo(file: DotNimble): string	
+package	ups/spec.html#package.t,DotNimble	spec: package(file: DotNimble): string	
+ext	ups/spec.html#ext.t,DotNimble	spec: ext(file: DotNimble): string	
+toDotNimble	ups/spec.html#toDotNimble,AbsoluteFile	spec: toDotNimble(file: AbsoluteFile): DotNimble	
+fileExists	ups/spec.html#fileExists,DotNimble	spec: fileExists(file: DotNimble): bool	
+isValid	ups/spec.html#isValid.t,Uri	spec: isValid(url: Uri): bool	
+hash	ups/spec.html#hash,Uri	spec: hash(url: Uri): Hash	
+bare	ups/spec.html#bare,Uri	spec: bare(url: Uri): Uri	
+bareUrlsAreEqual	ups/spec.html#bareUrlsAreEqual,Uri,Uri	spec: bareUrlsAreEqual(a, b: Uri): bool	
+normalizeUrl	ups/spec.html#normalizeUrl,Uri	spec: normalizeUrl(uri: Uri): Uri	
+convertToGit	ups/spec.html#convertToGit,Uri	spec: convertToGit(uri: Uri): Uri	
+convertToSsh	ups/spec.html#convertToSsh,Uri	spec: convertToSsh(uri: Uri): Uri	
+packageName	ups/spec.html#packageName,string	spec: packageName(name: string; capsOkay = true): PackageName	
+packageName	ups/spec.html#packageName,Uri	spec: packageName(url: Uri): PackageName	
+importName	ups/spec.html#importName,string	spec: importName(s: string; capsOkay = true): ImportName	
+importName	ups/spec.html#importName,ImportName	spec: importName(name: ImportName): ImportName	
+importName	ups/spec.html#importName,PackageName	spec: importName(name: PackageName): ImportName	
+importName	ups/spec.html#importName,AbsoluteFile	spec: importName(path: AbsoluteFile): ImportName	
+importName	ups/spec.html#importName,AbsoluteDir	spec: importName(path: AbsoluteDir): ImportName	
+importName	ups/spec.html#importName,DotNimble	spec: importName(file: DotNimble): ImportName	
+importName	ups/spec.html#importName,Uri	spec: importName(url: Uri): ImportName	
+forkTarget	ups/spec.html#forkTarget,Uri	spec: forkTarget(url: Uri): ForkTargetResult	
+virtualNimImports	ups/spec.html#virtualNimImports	spec: virtualNimImports	
